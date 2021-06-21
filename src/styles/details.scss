@@ -1,0 +1,49 @@
+.main__details {
+    display: flex;
+
+    padding: 5rem;
+
+    img {
+        border-radius: 10px;
+
+        height: 23rem;
+        width: 17rem;
+
+        transition: all 0.2s;
+    }
+
+    img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .movie__infos {
+        margin-left: 2rem;
+
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 0.1rem;
+        }
+
+        .actions {
+            margin: 3rem 2rem;
+
+            .public__aprovation {
+            
+                strong {
+                    border: 2px solid aqua;
+                    margin-left: 1rem;
+
+                    padding: 10px;
+                    border-radius: 10px;
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+        p {
+            margin-top: 3rem;
+            font-size: 1rem;
+        }
+    }
+}
